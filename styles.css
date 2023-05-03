@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #ffeaea;
+    font-family: Tahoma, sans-serif;
+    font-family: japanFont;
+}
+
+.pageBody::-webkit-scrollbar {
+    display: none;
+}
+
+.divTitle {
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+    padding-top: 100px;
+}
+
+.title {
+    color: rgb(233,72,64);
+    margin: auto;
+    font-size: 200px;
+    font-weight: normal;
+    text-shadow: 3px 3px 5px #ffd300;
+}
+
+.subTitle {
+    color: rgb(233,72,64);
+    font-size: 70px;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px #ffd300;
+}
+
+.imgMapItinerary{
+    width: 90%;
+
+}
+
+.divMapItinerary{
+
+    text-align: center;
+}
+
+@font-face {
+    font-family: japanFont;
+    src: url(font/HIROMISAKE.ttf);
+}
